@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-color="#000" class="section-1">
+          <div class="head">
+            <img
+              src="https://static.tildacdn.com/tild3836-6534-4932-b061-366266613864/Asset_2logo1.svg"
+              alt=""
+            />
+          </div>
+          <div class="body">
+            <div class="comp">
+              <div>
+                <img
+                  src="https://static.tildacdn.com/tild3834-6132-4534-b232-383835366439/Comp-3_1.gif"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="content">
+              <div class="title-comand">
+                <span>Burning Crabs</span>
+                <span class="typed-cursor">|</span>
+              </div>
+              <div class="members"></div>
+            </div>
+          </div>
+        </section>
+        <section data-markdown data-background-color="#000">
+          <textarea data-template>
+				## Главная цель 💥 
+				Позволить обьеденять неопределенное количество SPA в один проект
+			</textarea
+          >
+        </section>
+        <section data-background-color="#000">
+          <h1>Мотивация 🔥</h1>
+          <p class="fragment">✅ Уйти от монолита SPA</p>
+          <p class="fragment">- Прийти к низкой связности</p>
+          <p class="fragment">- Прийти к независемость команд</p>
+          <p class="fragment">
+            - Дать возможность каждой команде свободно релизится
+          </p>
+          <p class="fragment">- Упростить ревью</p>
+        </section>
+        <section data-background-color="#000">
+          <h1>Мотивация 🔥</h1>
+          <p>✅ Несколько фреймворков</p>
+          <p class="fragment">- Свобода выбора</p>
+          <p class="fragment">- Расширение найма</p>
+          <p class="fragment">
+            - Дать возможность каждой команде свободно релизится
+          </p>
+          <p class="fragment">- Упростить ревью</p>
+        </section>
+        <section data-background-color="#000" class="section-4">
+          <h2>Наше решение 😉</h2>
+          <div class="image">
+            <img
+              src="https://i.ibb.co/869S8VG/Screenshot-2021-06-04-at-22-39-09.png"
+              alt=""
+            />
+            <img
+              class="angular"
+              src="http://assets.stickpng.com/images/5847ea22cef1014c0b5e4833.png"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
