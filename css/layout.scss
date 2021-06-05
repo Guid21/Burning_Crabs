@@ -115,7 +115,7 @@
     .content {
       border-left: 10px solid #f8df84;
       border-top: 10px solid #f8df84;
-      width: 56vw;
+      // width: 56vw;
       text-align: left;
 
       .title-comand {
@@ -134,8 +134,25 @@
         margin-top: 20px;
         border-left: 10px solid #7b7dbc;
         border-top: 10px solid #7b7dbc;
-        width: 46vw;
+        // width: 46vw;
         height: 100%;
+
+        display: flex;
+        justify-content: space-around;
+
+        > div {
+          font-size: 2vh;
+          text-align: center;
+          > div {
+            margin: auto;
+            max-width: 120px;
+            justify-content: center;
+          }
+        }
+        .avatar {
+          width: 150px;
+          border-radius: 75px;
+        }
       }
     }
   }
